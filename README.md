@@ -1,9 +1,9 @@
 # Segmentation Detection with YOLOv8 
  Python scripts performing instance segmentation using the YOLOv8 model in ONNX.
 
-![! ONNX YOLOv8 Instance Segmentation](doc/img/result.jpg)
+![! ONNX YOLOv8 Instance Segmentation](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/img/result.jpg)
 
-*Original image: doc/img/img.jpg*
+*Original image:https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/img/img.jpg*
 
 # Important
 - The input images are directly resized to match the input size of the model. I skipped adding the pad to the input image (image letterbox), it might affect the accuracy of the model if the input image has a different aspect ratio compared to the input size of the model. Always try to get an input size with a ratio close to the input images you will use.
@@ -43,8 +43,8 @@ Otherwise:
  ```
  python main.py --input {video}.mp4 --output {result video}.mp4 
  ```
- ![!YOLOv8 instance segmentation video](doc/vid/result.gif)
-  *Original video: doc/video/video.gif
+ ![!YOLOv8 instance segmentation video](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/vid/result.gif)
+  *Original video:https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/video/video.gif
 
 
 # ONNX model
