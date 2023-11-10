@@ -1,0 +1,3 @@
+copy yolov8m-seg.onnx file after create with colab link 
+You can convert the Pytorch model to ONNX using the following Google Colab notebook: https://colab.research.google.com/drive/1oDEKz8FUCXtW-REhWy5N__PgTPjt3jm9?usp=sharing
+
