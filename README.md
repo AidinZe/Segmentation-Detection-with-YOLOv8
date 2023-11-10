@@ -19,6 +19,7 @@ git clone https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git
 cd Segmentation-Detection-with-YOLOv8
 pip install -r requirements.txt
 ```
+
 ### ONNX Runtime
 For Nvidia GPU computers:
 `pip install onnxruntime-gpu`
@@ -26,7 +27,14 @@ For Nvidia GPU computers:
 Otherwise:
 `pip install onnxruntime`
 
+# ONNX model
+You can convert the Pytorch model to ONNX using the following Google Colab notebook:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oDEKz8FUCXtW-REhWy5N__PgTPjt3jm9?usp=sharing)
+- The License of the models is GPL-3.0 license: [License](https://github.com/ultralytics/ultralytics/blob/master/LICENSE)
 
+# Original YOLOv8 model
+The original YOLOv8 Instance Segmentation model can be found in this repository: [YOLOv8 Instance Segmentation](https://github.com/ultralytics/ultralytics)
+
+ 
 # How to Use
 
  * **Image inference**:
@@ -48,12 +56,6 @@ Otherwise:
   *Original video:[https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/video/video.gif](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8/blob/main/doc/vid/video.mp4)*
 
 
-# ONNX model
-You can convert the Pytorch model to ONNX using the following Google Colab notebook:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oDEKz8FUCXtW-REhWy5N__PgTPjt3jm9?usp=sharing)
-- The License of the models is GPL-3.0 license: [License](https://github.com/ultralytics/ultralytics/blob/master/LICENSE)
-
-# Original YOLOv8 model
-The original YOLOv8 Instance Segmentation model can be found in this repository: [YOLOv8 Instance Segmentation](https://github.com/ultralytics/ultralytics)
 
 
 # References:
