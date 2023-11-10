@@ -44,6 +44,7 @@ Otherwise:
  python main.py --input {video}.mp4 --output {result video}.mp4 
  ```
  ![!YOLOv8 instance segmentation video](doc/vid/result.gif)
+
   *Original video:[https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/video/video.gif](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8/blob/main/doc/vid/video.mp4)*
 
 
