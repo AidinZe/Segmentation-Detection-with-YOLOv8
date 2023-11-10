@@ -5,7 +5,11 @@ import mimetypes
 
 # Initialize YOLO Instance Segmentator
 model_path = "models/yolov8m-seg.onnx"
-yoloseg = YOLOSeg(model_path, conf_thres=0.3, iou_thres=0.3)
+
+try:yoloseg = YOLOSeg(model_path, conf_thres=0.3, iou_thres=0.3)
+except: raise Exception('''copy yolov8m-seg.onnx file after create with colab link 
+You can convert the Pytorch model to ONNX using the following Google Colab notebook: https://colab.research.google.com/drive/1oDEKz8FUCXtW-REhWy5N__PgTPjt3jm9?usp=sharing
+''')
 mimetypes.init()
 if sys.argv[(sys.argv).index('--input')+1] == 'camera':format='camera'
 else:format = mimetypes.guess_type(sys.argv[(sys.argv).index('--input')+1])[0].split('/')[0]
