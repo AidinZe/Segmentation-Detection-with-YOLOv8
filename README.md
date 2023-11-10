@@ -1,7 +1,7 @@
 # Segmentation Detection with YOLOv8 
  Python scripts performing instance segmentation using the YOLOv8 model in ONNX.
 
-![! ONNX YOLOv8 Instance Segmentation]([https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/img/](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8/blob/main/doc/img/result.jpg)
+![! ONNX YOLOv8 Instance Segmentation](doc/img/result.jpg)
 
 *Original image:[https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/img/img.jpg](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8/blob/main/doc/img/img.jpg)*
 
@@ -43,7 +43,7 @@ Otherwise:
  ```
  python main.py --input {video}.mp4 --output {result video}.mp4 
  ```
- ![!YOLOv8 instance segmentation video](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/vid/result.gif)
+ ![!YOLOv8 instance segmentation video](doc/vid/result.gif)
   *Original video:[https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8.git/doc/video/video.gif](https://github.com/AidinZe/Segmentation-Detection-with-YOLOv8/blob/main/doc/vid/video.mp4)*
 
 
